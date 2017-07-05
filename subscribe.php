@@ -1,7 +1,5 @@
 <?php
-echo "<pre>";
-print_r($_SERVER['HTTP_HOST']);die();
-if($_SERVER['HTTP_HOST']=='http://www.prajapatisangam.com/'||$_SERVER['HTTP_HOST']=='http://www.prajapatisangam.com'){
+if($_SERVER['HTTP_HOST']=='www.prajapatisangam.com'||$_SERVER['HTTP_HOST']=='http://www.prajapatisangam.com'){
 	if(isset($_POST)){
 		$contact = $_POST['contact'];
 		if(strlen($_POST['contact'])==10){
