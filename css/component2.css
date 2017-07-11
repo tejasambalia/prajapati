@@ -17,9 +17,13 @@ body {
 	width: 100%;
 }
 
+.ht100 {
+	height: 100%;
+}
+
 /* Intro sides */
 .side {
-	position: fixed!important;
+	/*position: fixed!important;*/
 	top: 0;
 	z-index: 100;
 	width: 50%;

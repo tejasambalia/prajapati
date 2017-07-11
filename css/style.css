@@ -12,7 +12,7 @@ Project:	Pogody
 /****************************/
 @import url(component2.css);
 @import url(bootstrap.min.css);
-@import url(inputtext.css);
+/*@import url(inputtext.css);*/
 @import url(slider.css);
 /****************************/
 /** Reset **/
@@ -813,6 +813,9 @@ p.tagline, .address-detail a.tagline {
 /* Mediaqueries */
 /*****************************************************/
 @media only screen and (max-width: 1710px) {
+  #fakeDiv {
+    display: none;
+  }
   h1, h3, .side-right #countdown span,
   .side-right #countdown li.seperator {
     font-size: 65px; }
@@ -823,6 +826,9 @@ p.tagline, .address-detail a.tagline {
   .open-right .contact {
     right: 30px; } }
 @media only screen and (max-width: 1530px) {
+  #fakeDiv {
+    display: none;
+  }
   h1, h3, .side-right #countdown span,
   .side-right #countdown li.seperator {
     font-size: 35px; }
@@ -856,6 +862,9 @@ p.tagline, .address-detail a.tagline {
     .notify-wrap .btn .arrow-wrap, .page-right .btn .arrow-wrap {
       margin-left: 4px; } }
 @media only screen and (max-width: 1366px) {
+  #fakeDiv {
+    display: none;
+  }
   .btn .arrow-wrap {
     padding: 8px 6px 6px; }
   .btn .button-label {
@@ -928,12 +937,20 @@ p.tagline, .address-detail a.tagline {
 
   .logo img {
     width: 50px; } }
+
+  
 @media only screen and (max-width: 973px) {
   .copyright .social-icons {
-    padding-bottom: 12px; } }
+    padding-bottom: 12px; }
+    #fakeDiv {
+    display: none;
+  } }
 @media only screen and (max-width: 971px) {
   .open-right .contact {
     right: 20px; }
+    #fakeDiv {
+    display: none;
+  }
 
   .open-left .about {
     left: 20px; } }
@@ -941,7 +958,9 @@ p.tagline, .address-detail a.tagline {
   h1, h3, .side-right #countdown span,
   .side-right #countdown li.seperator {
     font-size: 30px; }
-
+    #fakeDiv {
+    display: none;
+  }
   h3 {
     font-size: 30px; }
 
@@ -952,6 +971,9 @@ p.tagline, .address-detail a.tagline {
   .copyright p, .copyright .address-detail a, .address-detail .copyright a, .copyright .address-detail a {
     font-size: 12px; } }
 @media only screen and (max-width: 834px) {
+  #fakeDiv {
+    display: none;
+  }
   .notify-wrap .notify-input-box {
     font-size: 12px; }
   .notify-wrap .form-control::-webkit-input-placeholder {
@@ -968,7 +990,9 @@ p.tagline, .address-detail a.tagline {
   h1, h3, .side-right #countdown span,
   .side-right #countdown li.seperator {
     font-size: 35px; }
-
+    #fakeDiv {
+    display: none;
+  }
   h3 {
     font-size: 30px; }
 
@@ -1080,7 +1104,9 @@ p.tagline, .address-detail a.tagline {
 @media only screen and (max-width: 615px) {
   .detail-info h3 {
     padding-bottom: 15px; }
-
+    #fakeDiv {
+    display: block !important;
+  }
   .col-xs-11.pad-left-zero {
     padding-left: 15px; } }
 @media only screen and (max-width: 438px) {
@@ -1088,11 +1114,18 @@ p.tagline, .address-detail a.tagline {
     padding-left: 0;
     width: 100%; }
 
+  #fakeDiv {
+    display: block !important;
+  }
+
   .page-right .icon {
     padding-top: 8px; } }
 @media only screen and (max-width: 414px) {
   h1, h3, .side-right #countdown span,
   .side-right #countdown li.seperator {
-    font-size: 35px; } }
+    font-size: 35px; }
+    #fakeDiv {
+    display: block !important;
+  } }
 
 /*# sourceMappingURL=style.css.map */
